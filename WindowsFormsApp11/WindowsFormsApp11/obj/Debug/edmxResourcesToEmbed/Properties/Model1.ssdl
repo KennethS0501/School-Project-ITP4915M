@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="sdpModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="access">
+    <Key>
+      <PropertyRef Name="AccessID" />
+    </Key>
+    <Property Name="AccessID" Type="int" Nullable="false" />
+    <Property Name="AccessName" Type="varchar" MaxLength="45" />
+    <Property Name="AddAccount" Type="tinyint" />
+    <Property Name="RemoveAccount" Type="tinyint" />
+    <Property Name="ModifyAccount" Type="tinyint" />
+    <Property Name="AddProduct" Type="tinyint" />
+    <Property Name="RemoveProduct" Type="tinyint" />
+    <Property Name="ModifyProduct" Type="tinyint" />
+    <Property Name="AddStaff" Type="tinyint" />
+    <Property Name="RemoveStaff" Type="tinyint" />
+    <Property Name="ModifyStaff" Type="tinyint" />
+    <Property Name="DetailStaff" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="account">
+    <Key>
+      <PropertyRef Name="staffID" />
+    </Key>
+    <Property Name="staffID" Type="int" Nullable="false" />
+    <Property Name="password" Type="int" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="customerID" />
+    </Key>
+    <Property Name="customerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="address" Type="varchar" MaxLength="255" />
+    <Property Name="phone" Type="int" />
+    <Property Name="AddDate" Type="datetime" Precision="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="delivery">
+    <Key>
+      <PropertyRef Name="deliveryID" />
+    </Key>
+    <Property Name="deliveryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="date" Nullable="false" />
+    <Property Name="timeSession" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="staffID" Type="int" />
+    <Property Name="status" Type="int" />
+    <Property Name="deliveryDate" Type="datetime" Precision="0" />
+    <Property Name="dMethod" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="department">
+    <Key>
+      <PropertyRef Name="departID" />
+    </Key>
+    <Property Name="departID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="departName" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="departmentmanager">
+    <Key>
+      <PropertyRef Name="departID" />
+    </Key>
+    <Property Name="staffID" Type="int" Nullable="false" />
+    <Property Name="departID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="installation">
+    <Key>
+      <PropertyRef Name="installationID" />
+    </Key>
+    <Property Name="installationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="staffID" Type="int" />
+    <Property Name="status" Type="tinytext" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="orderID" />
+    </Key>
+    <Property Name="orderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="customerID" Type="int" Nullable="false" />
+    <Property Name="deliveryID" Type="int" />
+    <Property Name="installationID" Type="int" />
+    <Property Name="method" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="totalPrice" Type="double" Nullable="false" />
+    <Property Name="payDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="productlist">
+    <Key>
+      <PropertyRef Name="productID" />
+    </Key>
+    <Property Name="productID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="price" Type="double" Nullable="false" />
+    <Property Name="fromDate" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="receipt">
+    <Key>
+      <PropertyRef Name="orderID" />
+      <PropertyRef Name="productID" />
+      <PropertyRef Name="qty" />
+      <PropertyRef Name="shopID" />
+    </Key>
+    <Property Name="orderID" Type="int" Nullable="false" />
+    <Property Name="productID" Type="int" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="shopID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="restockretailproduct">
+    <Key>
+      <PropertyRef Name="shopID" />
+      <PropertyRef Name="warehouseID" />
+      <PropertyRef Name="productID" />
+      <PropertyRef Name="qty" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="shopID" Type="int" Nullable="false" />
+    <Property Name="warehouseID" Type="int" Nullable="false" />
+    <Property Name="productID" Type="int" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Precision="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="restockwarehousestock">
+    <Key>
+      <PropertyRef Name="warehouseID" />
+      <PropertyRef Name="supplierID" />
+      <PropertyRef Name="productID" />
+      <PropertyRef Name="qty" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="warehouseID" Type="int" Nullable="false" />
+    <Property Name="supplierID" Type="int" Nullable="false" />
+    <Property Name="productID" Type="int" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Precision="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="retailstore">
+    <Key>
+      <PropertyRef Name="shopID" />
+    </Key>
+    <Property Name="shopID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="phone" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="retailstorestock">
+    <Key>
+      <PropertyRef Name="RproductID" />
+      <PropertyRef Name="shopID" />
+    </Key>
+    <Property Name="RproductID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="shopID" Type="int" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="restockPoint" Type="int" />
+  </EntityType>
+  <EntityType Name="staff">
+    <Key>
+      <PropertyRef Name="staffID" />
+    </Key>
+    <Property Name="staffID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="lastName" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="birthDate" Type="date" Nullable="false" />
+    <Property Name="hireDate" Type="date" Nullable="false" />
+    <Property Name="gender" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="departID" Type="int" Nullable="false" />
+    <Property Name="titleID" Type="int" Nullable="false" />
+    <Property Name="accessID" Type="int" />
+  </EntityType>
+  <EntityType Name="supplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="int" Nullable="false" />
+    <Property Name="SuppliernnName" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="titles">
+    <Key>
+      <PropertyRef Name="titleID" />
+    </Key>
+    <Property Name="titleID" Type="int" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="warehouse">
+    <Key>
+      <PropertyRef Name="warehouseID" />
+    </Key>
+    <Property Name="warehouseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="phone" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="warehousestock">
+    <Key>
+      <PropertyRef Name="WproductID" />
+      <PropertyRef Name="warehouseID" />
+    </Key>
+    <Property Name="WproductID" Type="int" Nullable="false" />
+    <Property Name="warehouseID" Type="int" Nullable="false" />
+    <Property Name="qty" Type="int" Nullable="false" />
+    <Property Name="reorderPoint" Type="int" />
+  </EntityType>
+  <Association Name="FK324262436">
+    <End Role="staff" Type="Self.staff" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="account" Type="Self.account" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staffID" />
+      </Principal>
+      <Dependent Role="account">
+        <PropertyRef Name="staffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKcustomer1">
+    <End Role="customer" Type="Self.customer" Multiplicity="1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customer">
+        <PropertyRef Name="customerID" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="customerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKdelivery78883">
+    <End Role="staff" Type="Self.staff" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="delivery" Type="Self.delivery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staffID" />
+      </Principal>
+      <Dependent Role="delivery">
+        <PropertyRef Name="staffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKdepartment355423">
+    <End Role="department" Type="Self.department" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="departmentmanager" Type="Self.departmentmanager" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="departID" />
+      </Principal>
+      <Dependent Role="departmentmanager">
+        <PropertyRef Name="departID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKdepartment61658">
+    <End Role="staff" Type="Self.staff" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="departmentmanager" Type="Self.departmentmanager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staffID" />
+      </Principal>
+      <Dependent Role="departmentmanager">
+        <PropertyRef Name="staffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKinstallati147808">
+    <End Role="staff" Type="Self.staff" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="installation" Type="Self.installation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="staff">
+        <PropertyRef Name="staffID" />
+      </Principal>
+      <Dependent Role="installation">
+        <PropertyRef Name="staffID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKorder889113">
+    <End Role="delivery" Type="Self.delivery" Multiplicity="0..1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="delivery">
+        <PropertyRef Name="deliveryID" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="deliveryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKorder979197">
+    <End Role="installation" Type="Self.installation" Multiplicity="0..1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="installation">
+        <PropertyRef Name="installationID" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="installationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKproduct">
+    <End Role="productlist" Type="Self.productlist" Multiplicity="1" />
+    <End Role="retailstorestock" Type="Self.retailstorestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productlist">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="retailstorestock">
+        <PropertyRef Name="RproductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKproduct_restock">
+    <End Role="productlist" Type="Self.productlist" Multiplicity="1" />
+    <End Role="restockwarehousestock" Type="Self.restockwarehousestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productlist">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="restockwarehousestock">
+        <PropertyRef Name="productID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKproductlist1">
+    <End Role="productlist" Type="Self.productlist" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="warehousestock" Type="Self.warehousestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productlist">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="warehousestock">
+        <PropertyRef Name="WproductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKreceipt1">
+    <End Role="order" Type="Self.order" Multiplicity="1" />
+    <End Role="receipt" Type="Self.receipt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="order">
+        <PropertyRef Name="orderID" />
+      </Principal>
+      <Dependent Role="receipt">
+        <PropertyRef Name="orderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKreceipt123">
+    <End Role="productlist" Type="Self.productlist" Multiplicity="1" />
+    <End Role="receipt" Type="Self.receipt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productlist">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="receipt">
+        <PropertyRef Name="productID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKrestockPro125910">
+    <End Role="productlist" Type="Self.productlist" Multiplicity="1" />
+    <End Role="restockretailproduct" Type="Self.restockretailproduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productlist">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="restockretailproduct">
+        <PropertyRef Name="productID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKrestockPro555458">
+    <End Role="retailstore" Type="Self.retailstore" Multiplicity="1" />
+    <End Role="restockretailproduct" Type="Self.restockretailproduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="retailstore">
+        <PropertyRef Name="shopID" />
+      </Principal>
+      <Dependent Role="restockretailproduct">
+        <PropertyRef Name="shopID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKretailStor74088">
+    <End Role="retailstore" Type="Self.retailstore" Multiplicity="1" />
+    <End Role="retailstorestock" Type="Self.retailstorestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="retailstore">
+        <PropertyRef Name="shopID" />
+      </Principal>
+      <Dependent Role="retailstorestock">
+        <PropertyRef Name="shopID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKStaffAccess1">
+    <End Role="access" Type="Self.access" Multiplicity="0..1" />
+    <End Role="staff" Type="Self.staff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="access">
+        <PropertyRef Name="AccessID" />
+      </Principal>
+      <Dependent Role="staff">
+        <PropertyRef Name="accessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKStaffDepartment1">
+    <End Role="department" Type="Self.department" Multiplicity="1" />
+    <End Role="staff" Type="Self.staff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="departID" />
+      </Principal>
+      <Dependent Role="staff">
+        <PropertyRef Name="departID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKStaffTitles1">
+    <End Role="titles" Type="Self.titles" Multiplicity="1" />
+    <End Role="staff" Type="Self.staff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="titles">
+        <PropertyRef Name="titleID" />
+      </Principal>
+      <Dependent Role="staff">
+        <PropertyRef Name="titleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKsupplier_restock">
+    <End Role="supplier" Type="Self.supplier" Multiplicity="1" />
+    <End Role="restockwarehousestock" Type="Self.restockwarehousestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="SupplierID" />
+      </Principal>
+      <Dependent Role="restockwarehousestock">
+        <PropertyRef Name="supplierID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKwarehouse_restock">
+    <End Role="warehouse" Type="Self.warehouse" Multiplicity="1" />
+    <End Role="restockwarehousestock" Type="Self.restockwarehousestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="warehouse">
+        <PropertyRef Name="warehouseID" />
+      </Principal>
+      <Dependent Role="restockwarehousestock">
+        <PropertyRef Name="warehouseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKwarehouseS377978">
+    <End Role="warehouse" Type="Self.warehouse" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="warehousestock" Type="Self.warehousestock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="warehouse">
+        <PropertyRef Name="warehouseID" />
+      </Principal>
+      <Dependent Role="warehousestock">
+        <PropertyRef Name="warehouseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="sdpModelStoreContainer">
+    <EntitySet Name="access" EntityType="Self.access" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="account" EntityType="Self.account" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="customer" EntityType="Self.customer" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="delivery" EntityType="Self.delivery" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="department" EntityType="Self.department" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="departmentmanager" EntityType="Self.departmentmanager" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="installation" EntityType="Self.installation" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="order" EntityType="Self.order" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="productlist" EntityType="Self.productlist" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="receipt" EntityType="Self.receipt" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="restockretailproduct" EntityType="Self.restockretailproduct" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="restockwarehousestock" EntityType="Self.restockwarehousestock" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="retailstore" EntityType="Self.retailstore" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="retailstorestock" EntityType="Self.retailstorestock" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="staff" EntityType="Self.staff" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="supplier" EntityType="Self.supplier" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="titles" EntityType="Self.titles" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="warehouse" EntityType="Self.warehouse" Schema="sdp" store:Type="Tables" />
+    <EntitySet Name="warehousestock" EntityType="Self.warehousestock" Schema="sdp" store:Type="Tables" />
+    <AssociationSet Name="FK324262436" Association="Self.FK324262436">
+      <End Role="staff" EntitySet="staff" />
+      <End Role="account" EntitySet="account" />
+    </AssociationSet>
+    <AssociationSet Name="FKcustomer1" Association="Self.FKcustomer1">
+      <End Role="customer" EntitySet="customer" />
+      <End Role="order" EntitySet="order" />
+    </AssociationSet>
+    <AssociationSet Name="FKdelivery78883" Association="Self.FKdelivery78883">
+      <End Role="staff" EntitySet="staff" />
+      <End Role="delivery" EntitySet="delivery" />
+    </AssociationSet>
+    <AssociationSet Name="FKdepartment355423" Association="Self.FKdepartment355423">
+      <End Role="department" EntitySet="department" />
+      <End Role="departmentmanager" EntitySet="departmentmanager" />
+    </AssociationSet>
+    <AssociationSet Name="FKdepartment61658" Association="Self.FKdepartment61658">
+      <End Role="staff" EntitySet="staff" />
+      <End Role="departmentmanager" EntitySet="departmentmanager" />
+    </AssociationSet>
+    <AssociationSet Name="FKinstallati147808" Association="Self.FKinstallati147808">
+      <End Role="staff" EntitySet="staff" />
+      <End Role="installation" EntitySet="installation" />
+    </AssociationSet>
+    <AssociationSet Name="FKorder889113" Association="Self.FKorder889113">
+      <End Role="delivery" EntitySet="delivery" />
+      <End Role="order" EntitySet="order" />
+    </AssociationSet>
+    <AssociationSet Name="FKorder979197" Association="Self.FKorder979197">
+      <End Role="installation" EntitySet="installation" />
+      <End Role="order" EntitySet="order" />
+    </AssociationSet>
+    <AssociationSet Name="FKproduct" Association="Self.FKproduct">
+      <End Role="productlist" EntitySet="productlist" />
+      <End Role="retailstorestock" EntitySet="retailstorestock" />
+    </AssociationSet>
+    <AssociationSet Name="FKproduct_restock" Association="Self.FKproduct_restock">
+      <End Role="productlist" EntitySet="productlist" />
+      <End Role="restockwarehousestock" EntitySet="restockwarehousestock" />
+    </AssociationSet>
+    <AssociationSet Name="FKproductlist1" Association="Self.FKproductlist1">
+      <End Role="productlist" EntitySet="productlist" />
+      <End Role="warehousestock" EntitySet="warehousestock" />
+    </AssociationSet>
+    <AssociationSet Name="FKreceipt1" Association="Self.FKreceipt1">
+      <End Role="order" EntitySet="order" />
+      <End Role="receipt" EntitySet="receipt" />
+    </AssociationSet>
+    <AssociationSet Name="FKreceipt123" Association="Self.FKreceipt123">
+      <End Role="productlist" EntitySet="productlist" />
+      <End Role="receipt" EntitySet="receipt" />
+    </AssociationSet>
+    <AssociationSet Name="FKrestockPro125910" Association="Self.FKrestockPro125910">
+      <End Role="productlist" EntitySet="productlist" />
+      <End Role="restockretailproduct" EntitySet="restockretailproduct" />
+    </AssociationSet>
+    <AssociationSet Name="FKrestockPro555458" Association="Self.FKrestockPro555458">
+      <End Role="retailstore" EntitySet="retailstore" />
+      <End Role="restockretailproduct" EntitySet="restockretailproduct" />
+    </AssociationSet>
+    <AssociationSet Name="FKretailStor74088" Association="Self.FKretailStor74088">
+      <End Role="retailstore" EntitySet="retailstore" />
+      <End Role="retailstorestock" EntitySet="retailstorestock" />
+    </AssociationSet>
+    <AssociationSet Name="FKStaffAccess1" Association="Self.FKStaffAccess1">
+      <End Role="access" EntitySet="access" />
+      <End Role="staff" EntitySet="staff" />
+    </AssociationSet>
+    <AssociationSet Name="FKStaffDepartment1" Association="Self.FKStaffDepartment1">
+      <End Role="department" EntitySet="department" />
+      <End Role="staff" EntitySet="staff" />
+    </AssociationSet>
+    <AssociationSet Name="FKStaffTitles1" Association="Self.FKStaffTitles1">
+      <End Role="titles" EntitySet="titles" />
+      <End Role="staff" EntitySet="staff" />
+    </AssociationSet>
+    <AssociationSet Name="FKsupplier_restock" Association="Self.FKsupplier_restock">
+      <End Role="supplier" EntitySet="supplier" />
+      <End Role="restockwarehousestock" EntitySet="restockwarehousestock" />
+    </AssociationSet>
+    <AssociationSet Name="FKwarehouse_restock" Association="Self.FKwarehouse_restock">
+      <End Role="warehouse" EntitySet="warehouse" />
+      <End Role="restockwarehousestock" EntitySet="restockwarehousestock" />
+    </AssociationSet>
+    <AssociationSet Name="FKwarehouseS377978" Association="Self.FKwarehouseS377978">
+      <End Role="warehouse" EntitySet="warehouse" />
+      <End Role="warehousestock" EntitySet="warehousestock" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

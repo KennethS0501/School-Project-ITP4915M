@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1fd284356d014051a5c1add9892ce85d" Name="Diagram1">
+        <EntityTypeShape EntityType="sdpModel.access" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.account" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.customer" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.delivery" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.department" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.installation" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.order" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.productlist" Width="1.5" PointX="7.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.receipt" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.restockretailproduct" Width="1.5" PointX="9.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.restockwarehousestock" Width="1.5" PointX="12.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.retailstore" Width="1.5" PointX="7.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.retailstorestock" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.staff" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.supplier" Width="1.5" PointX="10.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.titles" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.warehouse" Width="1.5" PointX="10.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdpModel.warehousestock" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="sdpModel.FKStaffAccess1" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FK324262436" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKcustomer1" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKdelivery78883" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKorder889113" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKStaffDepartment1" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKinstallati147808" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKorder979197" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKreceipt1" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKproduct" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKproduct_restock" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKproductlist1" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKreceipt123" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKrestockPro125910" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKrestockPro555458" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKsupplier_restock" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKwarehouse_restock" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKretailStor74088" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKStaffTitles1" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.FKwarehouseS377978" ManuallyRouted="false" />
+        <AssociationConnector Association="sdpModel.departmentmanager" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

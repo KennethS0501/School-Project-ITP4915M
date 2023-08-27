@@ -1,0 +1,95 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using WindowsFormsApp11.InventoryDepart.Restock_From_Supplier;
+using WindowsFormsApp11.SalesDepart.Restock_From_Warehouse;
+
+namespace WindowsFormsApp11.InventoryDepart
+{
+    public partial class frm_RestockIndex : Form
+    {
+        public frm_RestockIndex()
+        {
+            InitializeComponent();
+        }
+
+        private void btnSetdangerlevels_Click(object sender, EventArgs e)
+        {
+            frm_SetDangerLevels frm = new frm_SetDangerLevels();
+            frm.ShowDialog();
+
+        }
+
+        private void lblNumOfLowLevelProduct_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmInventoryIndex_Load(object sender, EventArgs e)
+        {
+            int NumLowLevelProduct = 0;
+            //Checking data in database
+            using (var classicContext = new sdpEntities1())
+            {
+                var emp = (from list in classicContext.warehousestock select list);    // select * from employees
+
+                foreach (var emp2 in emp.ToList())
+                {
+                    if (emp2.qty <= emp2.reorderPoint)
+                    {
+                        NumLowLevelProduct += 1;
+
+                    }
+
+                }
+                lblNumOfLowLevelProduct.Text = Convert.ToString(NumLowLevelProduct);
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int NumLowLevelProduct = 0;
+            using (var classicContext = new sdpEntities1())
+            {
+                var emp = (from list in classicContext.warehousestock select list);    // select * from employees
+
+                foreach (var emp2 in emp.ToList())
+                {
+                    if (emp2.qty <= emp2.reorderPoint)
+                    {
+                        NumLowLevelProduct += 1;
+
+                    }
+
+                }
+                lblNumOfLowLevelProduct.Text = Convert.ToString(NumLowLevelProduct);
+            }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShowLow_LevelProduct_Click(object sender, EventArgs e)
+        {
+            /*this.Hide();
+            DetailOfLevel frm = new DetailOfLevel();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();*/
+        }
+
+        private void btn_RestockFromWarehouse_Click(object sender, EventArgs e)
+        {
+            frm_RestockFromWarehouse frm = new frm_RestockFromWarehouse();
+            frm.ShowDialog();
+        }
+    }
+}

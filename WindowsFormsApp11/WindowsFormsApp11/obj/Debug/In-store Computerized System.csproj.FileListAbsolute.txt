@@ -1,0 +1,583 @@
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeService.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplierPage.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_SetDangerLevels.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderSales.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_RestockIndex.resources
+C:\Users\kikit\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeService.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplierPage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_RestockIndex.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderSales.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_SetDangerLevels.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+C:\Users\kikit\Desktop\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeService.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplierPage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_RestockIndex.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderSales.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_SetDangerLevels.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+C:\Users\alvin\Downloads\SDP_FinalVersion (1)\SDP_FinalVersion (1)\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplierPage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_RestockIndex.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderSales.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_SetDangerLevels.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeDeliveryService.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.Daily_Installation_List_Generater.frm_InstallationListGen.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_ArrangeInstallationService.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_TrackInstallation.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_UpdateInstallation.resources
+D:\SDP\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_InstallationManagement.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeDeliveryService.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.Daily_Installation_List_Generater.frm_InstallationListGen.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_ArrangeInstallationService.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_InstallationManagement.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_TrackInstallation.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_UpdateInstallation.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockInventoryIndex.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockIndex.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_ConfirmRestockOrderSales.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_SetDangerLevels.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_SetDangerLevelsInventory.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_LowLevelProductInventory.resources
+C:\Users\kikit\Documents\GitHub\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_LowLevelProduct.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeDeliveryService.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.Daily_Installation_List_Generater.frm_InstallationListGen.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_ArrangeInstallationService.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_InstallationManagement.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_TrackInstallation.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_UpdateInstallation.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_LowLevelProductInventory.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockInventoryIndex.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_SetDangerLevelsInventory.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_LowLevelProduct.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockIndex.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_ConfirmRestockOrderSales.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_SetDangerLevels.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Billy Leung\Desktop\ITP4915M-SDP\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockFromWarehouse.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeDeliveryService.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.Daily_Installation_List_Generater.frm_InstallationListGen.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_ArrangeInstallationService.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_InstallationManagement.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_TrackInstallation.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_UpdateInstallation.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_LowLevelProductInventory.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockInventoryIndex.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_SetDangerLevelsInventory.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_LowLevelProduct.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockFromWarehouse.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockIndex.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_ConfirmRestockOrderSales.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_SetDangerLevels.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+C:\Users\Billy Leung\Desktop\SDP_backup\SDP-Project\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\BouncyCastle.Crypto.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Ubiety.Dns.Core.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\ZstdNet.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\Google.Protobuf.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Memory.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Buffers.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Compression.LZ4.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\K4os.Hash.xxHash.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\System.Numerics.Vectors.dll
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.xml
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\itextsharp.xml
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.xml
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\bin\Debug\MySql.Data.EntityFramework.xml
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.AssemblyReference.cache
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe.config
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_AccountingHomePage.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.Daily_Delivery_List_Generater.frm_DeliveryListGen.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_TrackDelivery.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_UpdateDelivery.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Delivery_Management.frm_ArrangeDeliveryService.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_DeliveryManagement.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_InventoryHomePage.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.Daily_Installation_List_Generater.frm_InstallationListGen.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_ArrangeInstallationService.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.frm_InstallationManagement.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_TrackInstallation.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Installation_Management.frm_UpdateInstallation.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_ConfirmRestockOrderWarehouse.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_LowLevelProductInventory.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockFromSupplier.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_RestockInventoryIndex.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.Restock_From_Supplier.frm_SetDangerLevelsInventory.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_ModifyAccessGroup.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITDepart.DataAccess.frm_RemoveAccessGroup.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_PurchaseHomePage.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_SalesHomePage.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_IThomePage.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_changePassword.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.LoginPage.frm_forgotPassword.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\SDP.frm_Login.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmAddAccessGroup.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.DataAccess.frmChangeUserAccess.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmDataAccessControl.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddAccount.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmModifyAccount.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Account.frmRemoveAccount.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAddStaff.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmDetailStaff.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmModifyStaff.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmRemoveStaff.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.ITdepart.Staff.frmStaffManagement.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frmAccountManagement.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_LowLevelProduct.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockFromWarehouse.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_RestockIndex.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_ConfirmRestockOrderSales.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Restock_From_Warehouse.frm_SetDangerLevels.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.Checkout.frm_Checkout.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_EditOrder.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.SalesDepart.Sales_Order_Management.frm_SalesOrder.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.frm_TechnicalHomePage.resources
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.GenerateResource.cache
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CoreCompileInputs.cache
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\In-store Computerized System.csproj.CopyComplete
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+D:\Test123\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.InventoryDepart.RestockSalesConfirm.frm_ConfirmRestockSales.resources

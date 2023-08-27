@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sdpModelStoreContainer" CdmEntityContainer="sdpEntities1">
+    <EntitySetMapping Name="access">
+      <EntityTypeMapping TypeName="sdpModel.access">
+        <MappingFragment StoreEntitySet="access">
+          <ScalarProperty Name="AccessID" ColumnName="AccessID" />
+          <ScalarProperty Name="AccessName" ColumnName="AccessName" />
+          <ScalarProperty Name="AddAccount" ColumnName="AddAccount" />
+          <ScalarProperty Name="RemoveAccount" ColumnName="RemoveAccount" />
+          <ScalarProperty Name="ModifyAccount" ColumnName="ModifyAccount" />
+          <ScalarProperty Name="AddProduct" ColumnName="AddProduct" />
+          <ScalarProperty Name="RemoveProduct" ColumnName="RemoveProduct" />
+          <ScalarProperty Name="ModifyProduct" ColumnName="ModifyProduct" />
+          <ScalarProperty Name="AddStaff" ColumnName="AddStaff" />
+          <ScalarProperty Name="RemoveStaff" ColumnName="RemoveStaff" />
+          <ScalarProperty Name="ModifyStaff" ColumnName="ModifyStaff" />
+          <ScalarProperty Name="DetailStaff" ColumnName="DetailStaff" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="EditOrder" ColumnName="EditOrder" />
+          <ScalarProperty Name="CancelOrder" ColumnName="CancelOrder" />
+          <ScalarProperty Name="RestockIndex" ColumnName="RestockIndex" />
+          <ScalarProperty Name="RestockFromWarehouse" ColumnName="RestockFromWarehouse" />
+          <ScalarProperty Name="CofirmSalesRestock" ColumnName="CofirmSalesRestock" />
+          <ScalarProperty Name="SetDangerLevelsSales" ColumnName="SetDangerLevelsSales" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="account">
+      <EntityTypeMapping TypeName="sdpModel.account">
+        <MappingFragment StoreEntitySet="account">
+          <ScalarProperty Name="staffID" ColumnName="staffID" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customer">
+      <EntityTypeMapping TypeName="sdpModel.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="customerID" ColumnName="customerID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="AddDate" ColumnName="AddDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="delivery">
+      <EntityTypeMapping TypeName="sdpModel.delivery">
+        <MappingFragment StoreEntitySet="delivery">
+          <ScalarProperty Name="deliveryID" ColumnName="deliveryID" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="timeSession" ColumnName="timeSession" />
+          <ScalarProperty Name="staffID" ColumnName="staffID" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="deliveryDate" ColumnName="deliveryDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="department">
+      <EntityTypeMapping TypeName="sdpModel.department">
+        <MappingFragment StoreEntitySet="department">
+          <ScalarProperty Name="departID" ColumnName="departID" />
+          <ScalarProperty Name="departName" ColumnName="departName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="installation">
+      <EntityTypeMapping TypeName="sdpModel.installation">
+        <MappingFragment StoreEntitySet="installation">
+          <ScalarProperty Name="installationID" ColumnName="installationID" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="timeSession" ColumnName="timeSession" />
+          <ScalarProperty Name="staffID" ColumnName="staffID" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="installtionDate" ColumnName="installtionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order">
+      <EntityTypeMapping TypeName="sdpModel.order">
+        <MappingFragment StoreEntitySet="order">
+          <ScalarProperty Name="orderID" ColumnName="orderID" />
+          <ScalarProperty Name="customerID" ColumnName="customerID" />
+          <ScalarProperty Name="deliveryID" ColumnName="deliveryID" />
+          <ScalarProperty Name="installationID" ColumnName="installationID" />
+          <ScalarProperty Name="method" ColumnName="method" />
+          <ScalarProperty Name="totalPrice" ColumnName="totalPrice" />
+          <ScalarProperty Name="payDate" ColumnName="payDate" />
+          <ScalarProperty Name="dMethod" ColumnName="dMethod" />
+          <ScalarProperty Name="deposit" ColumnName="deposit" />
+          <ScalarProperty Name="Cancel" ColumnName="Cancel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productlist">
+      <EntityTypeMapping TypeName="sdpModel.productlist">
+        <MappingFragment StoreEntitySet="productlist">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="fromDate" ColumnName="fromDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="receipt">
+      <EntityTypeMapping TypeName="sdpModel.receipt">
+        <MappingFragment StoreEntitySet="receipt">
+          <ScalarProperty Name="orderID" ColumnName="orderID" />
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="shopID" ColumnName="shopID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="restockretailproduct">
+      <EntityTypeMapping TypeName="sdpModel.restockretailproduct">
+        <MappingFragment StoreEntitySet="restockretailproduct">
+          <ScalarProperty Name="shopID" ColumnName="shopID" />
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="restockwarehousestock">
+      <EntityTypeMapping TypeName="sdpModel.restockwarehousestock">
+        <MappingFragment StoreEntitySet="restockwarehousestock">
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+          <ScalarProperty Name="supplierID" ColumnName="supplierID" />
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="retailstore">
+      <EntityTypeMapping TypeName="sdpModel.retailstore">
+        <MappingFragment StoreEntitySet="retailstore">
+          <ScalarProperty Name="shopID" ColumnName="shopID" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="retailstorestock">
+      <EntityTypeMapping TypeName="sdpModel.retailstorestock">
+        <MappingFragment StoreEntitySet="retailstorestock">
+          <ScalarProperty Name="RproductID" ColumnName="RproductID" />
+          <ScalarProperty Name="shopID" ColumnName="shopID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="restockPoint" ColumnName="restockPoint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staff">
+      <EntityTypeMapping TypeName="sdpModel.staff">
+        <MappingFragment StoreEntitySet="staff">
+          <ScalarProperty Name="staffID" ColumnName="staffID" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="hireDate" ColumnName="hireDate" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="departID" ColumnName="departID" />
+          <ScalarProperty Name="titleID" ColumnName="titleID" />
+          <ScalarProperty Name="accessID" ColumnName="accessID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="supplier">
+      <EntityTypeMapping TypeName="sdpModel.supplier">
+        <MappingFragment StoreEntitySet="supplier">
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SuppliernnName" ColumnName="SuppliernnName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="titles">
+      <EntityTypeMapping TypeName="sdpModel.titles">
+        <MappingFragment StoreEntitySet="titles">
+          <ScalarProperty Name="titleID" ColumnName="titleID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehouse">
+      <EntityTypeMapping TypeName="sdpModel.warehouse">
+        <MappingFragment StoreEntitySet="warehouse">
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="warehousestock">
+      <EntityTypeMapping TypeName="sdpModel.warehousestock">
+        <MappingFragment StoreEntitySet="warehousestock">
+          <ScalarProperty Name="WproductID" ColumnName="WproductID" />
+          <ScalarProperty Name="warehouseID" ColumnName="warehouseID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="reorderPoint" ColumnName="reorderPoint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="departmentmanager" TypeName="sdpModel.departmentmanager" StoreEntitySet="departmentmanager">
+      <EndProperty Name="department">
+        <ScalarProperty Name="departID" ColumnName="departID" />
+      </EndProperty>
+      <EndProperty Name="staff">
+        <ScalarProperty Name="staffID" ColumnName="staffID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

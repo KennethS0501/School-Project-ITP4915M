@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44D544D7-5A0D-4A99-A133-7B3FC9D28ED6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp11</RootNamespace>
+    <AssemblyName>WindowsFormsApp11</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.29\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.29\lib\net452\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="access.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="account.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="customer.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="delivery.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="department.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="installation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\Daily Delivery List Generater\frm_DeliveryListGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\Daily Delivery List Generater\frm_DeliveryListGen.Designer.cs">
+      <DependentUpon>frm_DeliveryListGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_TrackDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_TrackDelivery.Designer.cs">
+      <DependentUpon>frm_TrackDelivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_UpdateDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_UpdateDelivery.Designer.cs">
+      <DependentUpon>frm_UpdateDelivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_ArrangeDeliveryService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_ArrangeDeliveryService.Designer.cs">
+      <DependentUpon>frm_ArrangeDeliveryService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_DeliveryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Delivery Management\frm_DeliveryManagement.Designer.cs">
+      <DependentUpon>frm_DeliveryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\frm_InventoryHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\frm_InventoryHomePage.Designer.cs">
+      <DependentUpon>frm_InventoryHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\Daily Installation List Generater\frm_InstallationListGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\Daily Installation List Generater\frm_InstallationListGen.Designer.cs">
+      <DependentUpon>frm_InstallationListGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_ArrangeInstallationService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_ArrangeInstallationService.Designer.cs">
+      <DependentUpon>frm_ArrangeInstallationService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_InstallationManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_InstallationManagement.Designer.cs">
+      <DependentUpon>frm_InstallationManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_TrackInstallation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_TrackInstallation.Designer.cs">
+      <DependentUpon>frm_TrackInstallation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_UpdateInstallation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Installation Management\frm_UpdateInstallation.Designer.cs">
+      <DependentUpon>frm_UpdateInstallation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_ConfirmRestockOrderWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_ConfirmRestockOrderWarehouse.Designer.cs">
+      <DependentUpon>frm_ConfirmRestockOrderWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_LowLevelProductInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_LowLevelProductInventory.Designer.cs">
+      <DependentUpon>frm_LowLevelProductInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_RestockFromSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_RestockFromSupplier.Designer.cs">
+      <DependentUpon>frm_RestockFromSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_RestockInventoryIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_RestockInventoryIndex.Designer.cs">
+      <DependentUpon>frm_RestockInventoryIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_SetDangerLevelsInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\Restock From Supplier\frm_SetDangerLevelsInventory.Designer.cs">
+      <DependentUpon>frm_SetDangerLevelsInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryDepart\RestockSalesConfirm\frm_ConfirmRestockSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryDepart\RestockSalesConfirm\frm_ConfirmRestockSales.Designer.cs">
+      <DependentUpon>frm_ConfirmRestockSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_ModifyAccessGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_ModifyAccessGroup.Designer.cs">
+      <DependentUpon>frm_ModifyAccessGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_RemoveAccessGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_RemoveAccessGroup.Designer.cs">
+      <DependentUpon>frm_RemoveAccessGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="order.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="productlist.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseDepart\frm_PurchaselHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseDepart\frm_PurchaselHomePage.Designer.cs">
+      <DependentUpon>frm_PurchaselHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="receipt.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="restockretailproduct.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="restockwarehousestock.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="retailstore.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="retailstorestock.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\frm_SalesHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\frm_SalesHomePage.Designer.cs">
+      <DependentUpon>frm_SalesHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\frm_IThomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\frm_IThomePage.Designer.cs">
+      <DependentUpon>frm_IThomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\frm_changePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage\frm_changePassword.Designer.cs">
+      <DependentUpon>frm_changePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\frm_forgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage\frm_forgotPassword.Designer.cs">
+      <DependentUpon>frm_forgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage\frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_AddAccessGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_AddAccessGroup.Designer.cs">
+      <DependentUpon>frm_AddAccessGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_ChangeUserAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_ChangeUserAccess.Designer.cs">
+      <DependentUpon>frm_ChangeUserAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_DataAccessControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\DataAccess\frm_DataAccessControl.Designer.cs">
+      <DependentUpon>frm_DataAccessControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmAddAccount.Designer.cs">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmModifyAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmModifyAccount.Designer.cs">
+      <DependentUpon>frmModifyAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmRemoveAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmRemoveAccount.Designer.cs">
+      <DependentUpon>frmRemoveAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmAddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmAddStaff.Designer.cs">
+      <DependentUpon>frmAddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmDetailStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmDetailStaff.Designer.cs">
+      <DependentUpon>frmDetailStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmModifyStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmModifyStaff.Designer.cs">
+      <DependentUpon>frmModifyStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmRemoveStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmRemoveStaff.Designer.cs">
+      <DependentUpon>frmRemoveStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmStaffManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Staff\frmStaffManagement.Designer.cs">
+      <DependentUpon>frmStaffManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ITDepart\Account\frmAccountManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ITDepart\Account\frmAccountManagment.Designer.cs">
+      <DependentUpon>frmAccountManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_LowLevelProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_LowLevelProduct.Designer.cs">
+      <DependentUpon>frm_LowLevelProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_RestockIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_RestockIndex.Designer.cs">
+      <DependentUpon>frm_RestockIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_ConfirmRestockOrderSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_ConfirmRestockOrderSales.Designer.cs">
+      <DependentUpon>frm_ConfirmRestockOrderSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_SetDangerLevels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_SetDangerLevels.Designer.cs">
+      <DependentUpon>frm_SetDangerLevels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_RestockFromWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Restock From Warehouse\frm_RestockFromWarehouse.Designer.cs">
+      <DependentUpon>frm_RestockFromWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Sales Order Management\Create_Sales_Order\frm_Checkout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Sales Order Management\Create_Sales_Order\frm_Checkout.Designer.cs">
+      <DependentUpon>frm_Checkout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Sales Order Management\frm_EditOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Sales Order Management\frm_EditOrder.Designer.cs">
+      <DependentUpon>frm_EditOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDepart\Sales Order Management\frm_SalesOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesDepart\Sales Order Management\frm_SalesOrder.Designer.cs">
+      <DependentUpon>frm_SalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sdpDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sdpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="staff.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="supplier.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicalSupportDepart\frm_TechnicalHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechnicalSupportDepart\frm_TechnicalHomePage.Designer.cs">
+      <DependentUpon>frm_TechnicalHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TechnicalSupportDepart\Installation Management\frm_InstallationManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TechnicalSupportDepart\Installation Management\frm_InstallationManagement.Designer.cs">
+      <DependentUpon>frm_InstallationManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="titles.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="warehousestock.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InventoryDepart\Delivery Management\Daily Delivery List Generater\frm_DeliveryListGen.resx">
+      <DependentUpon>frm_DeliveryListGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Delivery Management\frm_TrackDelivery.resx">
+      <DependentUpon>frm_TrackDelivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Delivery Management\frm_UpdateDelivery.resx">
+      <DependentUpon>frm_UpdateDelivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Delivery Management\frm_ArrangeDeliveryService.resx">
+      <DependentUpon>frm_ArrangeDeliveryService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Delivery Management\frm_DeliveryManagement.resx">
+      <DependentUpon>frm_DeliveryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\frm_InventoryHomePage.resx">
+      <DependentUpon>frm_InventoryHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Installation Management\Daily Installation List Generater\frm_InstallationListGen.resx">
+      <DependentUpon>frm_InstallationListGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Installation Management\frm_ArrangeInstallationService.resx">
+      <DependentUpon>frm_ArrangeInstallationService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Installation Management\frm_InstallationManagement.resx">
+      <DependentUpon>frm_InstallationManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Installation Management\frm_TrackInstallation.resx">
+      <DependentUpon>frm_TrackInstallation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Installation Management\frm_UpdateInstallation.resx">
+      <DependentUpon>frm_UpdateInstallation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Restock From Supplier\frm_ConfirmRestockOrderWarehouse.resx">
+      <DependentUpon>frm_ConfirmRestockOrderWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Restock From Supplier\frm_LowLevelProductInventory.resx">
+      <DependentUpon>frm_LowLevelProductInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Restock From Supplier\frm_RestockFromSupplier.resx">
+      <DependentUpon>frm_RestockFromSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Restock From Supplier\frm_RestockInventoryIndex.resx">
+      <DependentUpon>frm_RestockInventoryIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\Restock From Supplier\frm_SetDangerLevelsInventory.resx">
+      <DependentUpon>frm_SetDangerLevelsInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryDepart\RestockSalesConfirm\frm_ConfirmRestockSales.resx">
+      <DependentUpon>frm_ConfirmRestockSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\DataAccess\frm_ModifyAccessGroup.resx">
+      <DependentUpon>frm_ModifyAccessGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\DataAccess\frm_RemoveAccessGroup.resx">
+      <DependentUpon>frm_RemoveAccessGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseDepart\frm_PurchaselHomePage.resx">
+      <DependentUpon>frm_PurchaselHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\frm_SalesHomePage.resx">
+      <DependentUpon>frm_SalesHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\frm_IThomePage.resx">
+      <DependentUpon>frm_IThomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage\frm_changePassword.resx">
+      <DependentUpon>frm_changePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage\frm_forgotPassword.resx">
+      <DependentUpon>frm_forgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage\frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\DataAccess\frm_AddAccessGroup.resx">
+      <DependentUpon>frm_AddAccessGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\DataAccess\frm_ChangeUserAccess.resx">
+      <DependentUpon>frm_ChangeUserAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\DataAccess\frm_DataAccessControl.resx">
+      <DependentUpon>frm_DataAccessControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Account\frmAddAccount.resx">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Account\frmModifyAccount.resx">
+      <DependentUpon>frmModifyAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Account\frmRemoveAccount.resx">
+      <DependentUpon>frmRemoveAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Staff\frmAddStaff.resx">
+      <DependentUpon>frmAddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Staff\frmDetailStaff.resx">
+      <DependentUpon>frmDetailStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Staff\frmModifyStaff.resx">
+      <DependentUpon>frmModifyStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Staff\frmRemoveStaff.resx">
+      <DependentUpon>frmRemoveStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ITDepart\Staff\frmStaffManagement.resx">
+      <DependentUpon>frmStaffManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ITDepart\Account\frmAccountManagment.resx">
+      <DependentUpon>frmAccountManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Restock From Warehouse\frm_LowLevelProduct.resx">
+      <DependentUpon>frm_LowLevelProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Restock From Warehouse\frm_RestockFromWarehouse.resx">
+      <DependentUpon>frm_RestockFromWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Restock From Warehouse\frm_RestockIndex.resx">
+      <DependentUpon>frm_RestockIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Restock From Warehouse\frm_ConfirmRestockOrderSales.resx">
+      <DependentUpon>frm_ConfirmRestockOrderSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Restock From Warehouse\frm_SetDangerLevels.resx">
+      <DependentUpon>frm_SetDangerLevels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Sales Order Management\Create_Sales_Order\frm_Checkout.resx">
+      <DependentUpon>frm_Checkout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Sales Order Management\frm_EditOrder.resx">
+      <DependentUpon>frm_EditOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesDepart\Sales Order Management\frm_SalesOrder.resx">
+      <DependentUpon>frm_SalesOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnicalSupportDepart\frm_TechnicalHomePage.resx">
+      <DependentUpon>frm_TechnicalHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sdpDataSet.xsc">
+      <DependentUpon>sdpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sdpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sdpDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sdpDataSet.xss">
+      <DependentUpon>sdpDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
