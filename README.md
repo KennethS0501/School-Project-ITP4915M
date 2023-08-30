@@ -53,6 +53,25 @@ Need to analyze the above information to do SDLC report and coding.
 - Database Design
 - Setting database
 
+## File structure
+	WindowsFormsApp11
+	|- Receipt (Save a receipt.pdf)
+	|- WindowsFormsApp11
+	| |- ITDepart
+	| | |- Account
+	| | | |- frmAccountManagement.cs (Backend)
+	| | | |- frmAccountManagement.Designer.cs (Frontend)
+	| | |- DataAccess
+	| | |- Staff
+	| |- InventoryDepart
+	| |- LoginPage
+	| |- SalesDepart
+All the same
+
+xxxx.cs is Backend
+
+xxxx.Designer.cs is Frontend
+
 ## Demo Video
 https://drive.google.com/file/d/1Kp2zUCSGSgA6sv0_eJ_vLK0XqlOL3MOh/view?usp=sharing
 
