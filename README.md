@@ -54,7 +54,7 @@ Need to analyze the above information to do SDLC report and coding.
 - Setting database
 
 ## Demo Video
-Processing ...
+https://drive.google.com/file/d/1Kp2zUCSGSgA6sv0_eJ_vLK0XqlOL3MOh/view?usp=sharing
 
 ## Final Version
 
